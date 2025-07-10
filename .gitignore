@@ -65,7 +65,10 @@ coverage/
 *.bak
 *.backup
 
-# Arquivos específicos do projeto (adicione conforme necessário)
+# Arquivos específicos do projeto
 uploads/
 secrets/
 config/local.json
+
+# Electron
+dist_electron/

@@ -1,15 +1,17 @@
 {
   "name": "student-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "dev": "NODE_ENV=development electron .",
+    "api": "node api/server.js"
   },
-  "keywords": [],
+  "keywords": ["electron", "student", "management"],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Sistema de gerenciamento de estudantes",
   "devDependencies": {
     "electron": "^37.1.0"
   },
